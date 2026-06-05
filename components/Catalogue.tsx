@@ -133,11 +133,12 @@ function ProductCard({ product, index }: { product: Product; index: number }) {
       style={{ transitionDelay: `${index * 80}ms` }}
     >
       {/* Visual area */}
-      <div className="relative h-48 overflow-hidden">
+      <div className="relative h-[220px] overflow-hidden">
         <img
           src={product.image}
           alt={product.name}
-          className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+          className="block w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+          style={{ maxHeight: '220px' }}
         />
         <div className="absolute inset-0 bg-bordeaux-deep/20 group-hover:bg-bordeaux-deep/10 transition-all duration-500" />
         {product.badge && (
