@@ -44,7 +44,7 @@ const products: Product[] = [
     price: 24,
     gradient: 'linear-gradient(145deg, #4A1820 0%, #C06080 65%, #E8A0B0 100%)',
     initial: 'C',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Rose_wine_-_stonesoup.jpg/400px-Rose_wine_-_stonesoup.jpg',
+    image: 'https://cdn.pixabay.com/photo/2017/06/06/22/46/wine-2378357_640.jpg',
   },
   {
     id: 5,
