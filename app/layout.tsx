@@ -1,31 +1,25 @@
 import type { Metadata } from 'next'
-import { Playfair_Display, Cormorant_Garamond, Raleway } from 'next/font/google'
+import { Cormorant_Garamond, Lato } from 'next/font/google'
 import './globals.css'
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  variable: '--font-playfair',
-  display: 'swap',
-})
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
   variable: '--font-cormorant',
-  weight: ['300', '400', '500', '600'],
+  weight: ['300', '400', '500', '600', '700'],
   style: ['normal', 'italic'],
   display: 'swap',
 })
 
-const raleway = Raleway({
+const lato = Lato({
   subsets: ['latin'],
-  variable: '--font-raleway',
-  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-lato',
+  weight: ['300', '400', '700', '900'],
   display: 'swap',
 })
 
 export const metadata: Metadata = {
   title: 'Cave & Terroir — Épicerie Fine Bordelaise',
-  description: "Vins d'exception, fromages affinés et saveurs authentiques du terroir bordelais. Sélection artisanale depuis 1987.",
+  description: "Vins d'exception, fromages affinés et coffrets gourmands du terroir bordelais. Sélection artisanale depuis 1987.",
   icons: {
     icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
   },
@@ -34,9 +28,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr" className="scroll-smooth">
-      <body
-        className={`${playfair.variable} ${cormorant.variable} ${raleway.variable} font-serif bg-cream text-charcoal antialiased`}
-      >
+      <body className={`${cormorant.variable} ${lato.variable} font-sans bg-cream text-charcoal antialiased`}>
         {children}
       </body>
     </html>

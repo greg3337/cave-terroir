@@ -3,23 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --bordeaux: #6B1E2C;
-    --bordeaux-dark: #3D0B15;
-    --bordeaux-deep: #2A0710;
-    --cream: #F5F0E8;
-    --gold: #C9A84C;
-    --charcoal: #1A1410;
-  }
+  html { scroll-behavior: smooth; }
 
-  html {
-    scroll-behavior: smooth;
-  }
-
-  ::selection {
-    background-color: #C9A84C;
-    color: #2A0710;
-  }
+  ::selection { background-color: #C9A84C; color: #2A0710; }
 
   ::-webkit-scrollbar { width: 5px; }
   ::-webkit-scrollbar-track { background: #2A0710; }
@@ -27,11 +13,8 @@
 }
 
 @layer utilities {
-  .grain {
-    position: relative;
-    isolation: isolate;
-  }
-
+  /* Grain texture for dark sections */
+  .grain { position: relative; isolation: isolate; }
   .grain::after {
     content: '';
     position: absolute;
@@ -43,12 +26,14 @@
     mix-blend-mode: overlay;
   }
 
+  /* Gold horizontal rule */
   .gold-rule {
     height: 1px;
     background: linear-gradient(90deg, transparent, #C9A84C 50%, transparent);
   }
 }
 
+/* Hero load animation delays */
 .delay-100 { animation-delay: 100ms; }
 .delay-200 { animation-delay: 200ms; }
 .delay-300 { animation-delay: 300ms; }

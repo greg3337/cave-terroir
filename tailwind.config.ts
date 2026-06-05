@@ -5,6 +5,8 @@ const config: Config = {
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './context/**/*.{js,ts,jsx,tsx}',
+    './hooks/**/*.{js,ts}',
   ],
   theme: {
     extend: {
@@ -30,29 +32,28 @@ const config: Config = {
         charcoal: '#1A1410',
       },
       fontFamily: {
-        display: ['var(--font-playfair)', 'Georgia', 'serif'],
-        serif: ['var(--font-cormorant)', 'Georgia', 'serif'],
-        sans: ['var(--font-raleway)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-cormorant)', 'Georgia', 'serif'],
+        serif:   ['var(--font-cormorant)', 'Georgia', 'serif'],
+        sans:    ['var(--font-lato)', 'system-ui', 'sans-serif'],
       },
       animation: {
-        'fade-up': 'fadeUp 0.9s ease-out both',
-        'fade-in': 'fadeIn 1.2s ease-out both',
-        'scale-in': 'scaleIn 0.8s ease-out both',
+        'fade-up':  'fadeUp 0.9s ease-out both',
+        'fade-in':  'fadeIn 1.2s ease-out both',
         'spin-slow': 'spin 20s linear infinite',
       },
       keyframes: {
         fadeUp: {
-          '0%': { opacity: '0', transform: 'translateY(40px)' },
+          '0%':   { opacity: '0', transform: 'translateY(36px)' },
           '100%': { opacity: '1', transform: 'translateY(0)' },
         },
         fadeIn: {
-          '0%': { opacity: '0' },
+          '0%':   { opacity: '0' },
           '100%': { opacity: '1' },
         },
-        scaleIn: {
-          '0%': { opacity: '0', transform: 'scale(0.94)' },
-          '100%': { opacity: '1', transform: 'scale(1)' },
-        },
+      },
+      transitionDuration: {
+        '400': '400ms',
+        '800': '800ms',
       },
     },
   },
