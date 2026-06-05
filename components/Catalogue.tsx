@@ -44,7 +44,7 @@ const products: Product[] = [
     price: 24,
     gradient: 'linear-gradient(145deg, #4A1820 0%, #C06080 65%, #E8A0B0 100%)',
     initial: 'C',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/White_and_ros%C3%A9_wine_2.jpg/400px-White_and_ros%C3%A9_wine_2.jpg',
+    image: '/images/vin-rose.jpg.webp',
   },
   {
     id: 5,
