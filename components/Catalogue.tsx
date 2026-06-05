@@ -45,7 +45,7 @@ const products: Product[] = [
     price: 24,
     gradient: 'linear-gradient(145deg, #4A1820 0%, #C06080 65%, #E8A0B0 100%)',
     initial: 'C',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1585553616435-2dc0a54e6b9e?w=400&h=300&fit=crop',
   },
   {
     id: 5,
