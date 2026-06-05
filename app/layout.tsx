@@ -26,6 +26,9 @@ const raleway = Raleway({
 export const metadata: Metadata = {
   title: 'Cave & Terroir — Épicerie Fine Bordelaise',
   description: "Vins d'exception, fromages affinés et saveurs authentiques du terroir bordelais. Sélection artisanale depuis 1987.",
+  icons: {
+    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
