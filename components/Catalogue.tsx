@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import { useCart, Product } from '@/context/CartContext'
 import { useInView } from '@/hooks/useInView'
 
@@ -45,7 +44,7 @@ const products: Product[] = [
     price: 24,
     gradient: 'linear-gradient(145deg, #4A1820 0%, #C06080 65%, #E8A0B0 100%)',
     initial: 'C',
-    image: 'https://images.unsplash.com/photo-1585553616435-2dc0a54e6b9e?w=400&h=300&fit=crop',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Rose_wine_-_stonesoup.jpg/400px-Rose_wine_-_stonesoup.jpg',
   },
   {
     id: 5,
@@ -135,13 +134,10 @@ function ProductCard({ product, index }: { product: Product; index: number }) {
     >
       {/* Visual area */}
       <div className="relative h-48 overflow-hidden">
-        <Image
-          src={product.image!}
+        <img
+          src={product.image}
           alt={product.name}
-          fill
-          className="object-cover group-hover:scale-105 transition-transform duration-700"
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          unoptimized
+          className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
         />
         <div className="absolute inset-0 bg-bordeaux-deep/20 group-hover:bg-bordeaux-deep/10 transition-all duration-500" />
         {product.badge && (
