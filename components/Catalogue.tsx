@@ -24,7 +24,7 @@ const products: Product[] = [
     price: 34,
     gradient: 'linear-gradient(145deg, #6B4A10 0%, #C9A84C 65%, #E8D5A0 100%)',
     initial: 'L',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop',
+    image: '/images/clos-de-lune.jpg.png',
   },
   {
     id: 3,
