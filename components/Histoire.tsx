@@ -26,19 +26,19 @@ export default function Histoire() {
             </div>
 
             <h2 className="font-display text-cream text-[clamp(2.5rem,5vw,4.5rem)] leading-[1.05] mb-6">
-              L&apos;épicerie fine<br />
+              Vins &amp; Saveurs<br />
               <em className="italic text-gold">au cœur du terroir</em>
             </h2>
 
             <div className="gold-rule w-20 mb-8" />
 
-            <p className="font-sans text-cream/52 text-[0.925rem] leading-relaxed mb-5">
+            <p className="font-sans text-cream text-[0.925rem] leading-relaxed mb-5 [text-shadow:0_1px_6px_rgba(0,0,0,0.55)]">
               Fondée en 1987 par la famille Moreau au cœur de Bordeaux,{' '}
               <strong className="text-cream/78 font-normal">Cave &amp; Terroir</strong> est née d&apos;une passion pour
               les produits authentiques et les artisans du Sud-Ouest. Depuis quatre décennies, nous sillonnons vignobles,
               fromageries et fermes pour vous proposer le meilleur du terroir.
             </p>
-            <p className="font-sans text-cream/40 text-[0.925rem] leading-relaxed mb-10">
+            <p className="font-sans text-cream/90 text-[0.925rem] leading-relaxed mb-10 [text-shadow:0_1px_6px_rgba(0,0,0,0.55)]">
               Chaque produit est sélectionné selon des critères stricts&nbsp;: respect des savoir-faire traditionnels,
               qualité irréprochable et engagement envers les producteurs locaux. Notre cave abrite plus de 300 références,
               toutes issues d&apos;exploitations familiales.
