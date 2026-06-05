@@ -11,6 +11,7 @@ export interface Product {
   gradient: string
   initial: string
   badge?: string
+  image?: string
 }
 
 interface CartItem {

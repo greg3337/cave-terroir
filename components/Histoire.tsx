@@ -35,13 +35,13 @@ export default function Histoire() {
             <p className="font-sans text-cream text-[0.925rem] leading-relaxed mb-5 [text-shadow:0_1px_6px_rgba(0,0,0,0.55)]">
               Fondée en 1987 par la famille Moreau au cœur de Bordeaux,{' '}
               <strong className="text-cream/78 font-normal">Cave &amp; Terroir</strong> est née d&apos;une passion pour
-              les produits authentiques et les artisans du Sud-Ouest. Depuis quatre décennies, nous sillonnons vignobles,
-              fromageries et fermes pour vous proposer le meilleur du terroir.
+              les grands vins et les vignerons du Sud-Ouest. Depuis quatre décennies, nous sillonnons les vignobles
+              bordelais pour vous proposer le meilleur de la viticulture régionale.
             </p>
             <p className="font-sans text-cream/90 text-[0.925rem] leading-relaxed mb-10 [text-shadow:0_1px_6px_rgba(0,0,0,0.55)]">
-              Chaque produit est sélectionné selon des critères stricts&nbsp;: respect des savoir-faire traditionnels,
-              qualité irréprochable et engagement envers les producteurs locaux. Notre cave abrite plus de 300 références,
-              toutes issues d&apos;exploitations familiales.
+              Chaque bouteille est sélectionnée selon des critères stricts&nbsp;: respect des savoir-faire traditionnels,
+              qualité irréprochable et engagement envers les vignerons locaux. Notre cave abrite plus de 300 références,
+              toutes issues d&apos;exploitations familiales bordelaises.
             </p>
 
             {/* Key stats */}

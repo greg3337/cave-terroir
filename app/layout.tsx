@@ -18,8 +18,8 @@ const lato = Lato({
 })
 
 export const metadata: Metadata = {
-  title: 'Cave & Terroir — Épicerie Fine Bordelaise',
-  description: "Vins d'exception, fromages affinés et coffrets gourmands du terroir bordelais. Sélection artisanale depuis 1987.",
+  title: 'Cave & Terroir — Cave à Vins Bordelaise',
+  description: "Cave à vins bordelaise. Vins d'exception et coffrets prestige du terroir bordelais. Sélection artisanale depuis 1987.",
   icons: {
     icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
   },

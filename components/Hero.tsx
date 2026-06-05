@@ -55,8 +55,8 @@ export default function Hero() {
 
         {/* Subtitle */}
         <p className="font-sans text-cream/52 text-[clamp(0.875rem,1.8vw,1.1rem)] leading-relaxed max-w-lg mx-auto mb-12 animate-fade-up delay-500">
-          Fine sélection de vins, fromages et coffrets gourmands,<br className="hidden sm:block" />
-          au cœur du vignoble bordelais.
+          Cave à vins bordelaise — vins d&apos;exception et coffrets prestige,<br className="hidden sm:block" />
+          sélectionnés au cœur du vignoble bordelais.
         </p>
 
         {/* CTAs */}

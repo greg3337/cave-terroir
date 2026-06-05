@@ -18,7 +18,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="font-sans text-cream/80 text-sm leading-relaxed mb-7 max-w-xs">
-              Épicerie fine bordelaise fondée en 1987. Sélection artisanale de vins, fromages et spécialités du terroir.
+              Cave à vins bordelaise fondée en 1987. Sélection artisanale de vins d&apos;exception et coffrets prestige.
             </p>
             <div className="space-y-1.5 mb-6">
               <p className="font-sans text-[0.58rem] tracking-[0.18em] uppercase text-cream/75">
@@ -60,7 +60,7 @@ export default function Footer() {
                 Navigation
               </h3>
               <ul className="grid grid-cols-2 gap-x-4 gap-y-2.5">
-                {['La Cave', 'Vins', 'Fromages', 'Coffrets', 'Notre Histoire', 'Contact'].map(l => (
+                {['La Cave', 'Vins Rouges', 'Vins Blancs', 'Coffrets', 'Notre Histoire', 'Contact'].map(l => (
                   <li key={l}>
                     <a href="#" className="font-sans text-cream/75 hover:text-cream transition-colors duration-200 text-[0.82rem] tracking-wide">
                       {l}
